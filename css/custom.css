@@ -11,8 +11,24 @@ font-family: 'Teko', sans-serif; */
 body{
     padding:100px;
 }
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Audiowide', Arial, Helvetica, sans-serif;
+}
 .submit-area{
     padding:80px;
    border-radius : 10px;
    box-shadow: 5px 5px 5px rgb(168, 168, 168); 
 }
+.transection-area-first-row{}
+
+
+#login {
+    font-family: 'Teko';
+}
+#transection-area{
+    display: none;
+    font-family: 'Teko';
+}
+#deposit{}
+#withdraw{}
+#balance{}

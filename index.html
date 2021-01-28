@@ -29,27 +29,31 @@
             <button id="login-access" class="btn btn-primary">Login</button>
         </div>
     </div>
+    <div id="transection-area" class="text-center mt-2">
+       <h1>Transection Area</h1>
+       <div class="row transection-area-first-row">
+           <div id="deposit" class="col-md-4">Deposit</div>
+           <div id="withdraw" class="col-md-4">Withdraw</div>
+           <div id="balance" class="col-md-4">Balance</div>
+       </div>
+    </div>
     <script>
-        // Welcome heading custom code start
-        const welcomeHeading = document.getElementById('welcome-heading');
-          welcomeHeading.style.fontFamily = 'Audiowide';
-        // Welcome heading custom code end
         
-        //Login text customize code start 
-        const headingFour = document.getElementById("login");
-        headingFour.style.fontFamily = 'teko';
-        //Login text customize code end
+    
 
         //login button event handler code start
           const loginButton = document.getElementById("login-access");
           loginButton.addEventListener('click', function(){
           document.getElementById('login-area').style.display='none';
           loginButton.style.fontFamily = 'teko';
+          document.getElementById('transection-area').style.display ='block';
           })
           //login button event handler code end
+               
 
-         
+          //transection Area code Start
 
+          //transection Area code end
         
 
     </script>
