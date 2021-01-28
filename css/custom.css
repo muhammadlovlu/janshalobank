@@ -1,0 +1,18 @@
+/* Css font-list start */
+/* CSS rules to specify families */
+
+/* font-family: 'Audiowide', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Teko', sans-serif; */
+
+/* css font-list end */
+
+body{
+    padding:100px;
+}
+.submit-area{
+    padding:80px;
+   border-radius : 10px;
+   box-shadow: 5px 5px 5px rgb(168, 168, 168); 
+}
