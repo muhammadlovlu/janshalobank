@@ -11,7 +11,7 @@ font-family: 'Teko', sans-serif; */
 body{
     padding:100px;
 }
-h1, h3, h4, h5, h6 {
+h1, h3, h4, h5 {
     font-family: 'Audiowide', Arial, Helvetica, sans-serif;
 }
 h2{
@@ -24,8 +24,22 @@ h2{
    border-radius : 10px;
    box-shadow: 5px 5px 5px rgb(168, 168, 168); 
 }
-.transection-area-first-row{}
+.transection-area-first-row{
+    margin-top: 80px;
 
+}
+.deposit h6, .withdraw h6, .balance h6{
+    font-size:50px;
+}
+.deposit {
+    background-color:tomato;
+}
+.withdraw{
+    background-color: blueviolet;
+}
+.balance{
+    background-color: wheat;
+}
 
 #login {
     font-family: 'Teko';
@@ -33,6 +47,7 @@ h2{
 #transection-area{
     display: none;
     font-family: 'Teko';
+    font-size: 42px;
 }
 #deposit{}
 #withdraw{}

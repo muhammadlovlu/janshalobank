@@ -29,32 +29,43 @@
             <button id="login-access" class="btn btn-primary">Login</button>
         </div>
     </div>
-    <div id="transection-area" class="text-center mt-2">
-       <h2>Transection Area</h2>
-       <div class="row transection-area-first-row">
-           <div id="deposit" class="col-md-4">Deposit</div>
-           <div id="withdraw" class="col-md-4">Withdraw</div>
-           <div id="balance" class="col-md-4">Balance</div>
-       </div>
+    <div id="transection-area" class="text-center mt-2 ">
+        <h2>Transection Area</h2>
+        <div class="row  transection-area-first-row px-2">
+            <div class="row gx-2">
+                <div class="col-md-4 deposit">
+                    <h2 id="deposit">Deposit</h2>
+                    <h6>$00</h6>
+                </div>
+                <div class="col-md-4 withdraw">
+                    <h2 id="withdraw">Withdraw</h2>
+                    <h6>$00</h6>
+                </div>
+                <div class="col-md-4 balance">
+                    <h2 id="balance">Balance</h2>
+                    <h6>$1200</h6>
+                </div>
+            </div>
+        </div>
     </div>
     <script>
-        
-    
+
+
 
         //login button event handler code start
-          const loginButton = document.getElementById("login-access");
-          loginButton.addEventListener('click', function(){
-          document.getElementById('login-area').style.display='none';
-          loginButton.style.fontFamily = 'teko';
-          document.getElementById('transection-area').style.display ='block';
-          })
+        const loginButton = document.getElementById("login-access");
+        loginButton.addEventListener('click', function () {
+            document.getElementById('login-area').style.display = 'none';
+            loginButton.style.fontFamily = 'teko';
+            document.getElementById('transection-area').style.display = 'block';
+        })
           //login button event handler code end
-               
+
 
           //transection Area code Start
 
           //transection Area code end
-        
+
 
     </script>
 </body>
