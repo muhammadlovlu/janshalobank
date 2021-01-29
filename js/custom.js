@@ -17,5 +17,6 @@
             const currentDeposit = document.getElementById('currentDeposit').innerText;
             const currentDepositNumber = parseFloat(currentDeposit);
             const totalDeposit =  depositNumber + currentDepositNumber;
-            console.log(totalDeposit);
+            document.getElementById('currentDeposit').innerText = totalDeposit;
+
         })
