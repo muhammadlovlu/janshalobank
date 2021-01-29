@@ -20,6 +20,14 @@ document.getElementById('addDeposit').addEventListener('click', function () {
     document.getElementById('depositAmount').value = "";
 
 })
+
+//Withdraw button event handler
+document.getElementById('addWithdraw').addEventListener('click', function(){
+    const withdrawAmount = document.getElementById('withdrawAmount').value;
+    const withdrawNumber= parseFloat(withdrawAmount);
+    
+})
+
 function updateSpanText(id, depositNumber) {
     const current = document.getElementById(id).innerText;
     const currentNumber = parseFloat(current);
