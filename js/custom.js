@@ -19,4 +19,12 @@
             const totalDeposit =  depositNumber + currentDepositNumber;
             document.getElementById('currentDeposit').innerText = totalDeposit;
 
+            const currentBalance = document.getElementById('currentBalance').innerText;
+            const currentBalanceNumber = parseFloat(currentBalance);
+            const totalBalance = currentBalanceNumber + depositNumber;
+            document.getElementById('currentBalance').innerText = totalBalance;
+
+            document.getElementById('depositAmount').value = "";
+
+           
         })
