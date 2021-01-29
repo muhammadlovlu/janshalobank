@@ -22,7 +22,7 @@ h2{
 .submit-area{
     padding:80px;
    border-radius : 10px;
-   box-shadow: 5px 5px 5px rgb(168, 168, 168); 
+   box-shadow: 2px 2px 10px rgb(168, 168, 168); 
 }
 .transection-area-first-row{
     margin-top: 80px;
@@ -42,7 +42,7 @@ h2{
 }
 .status{
     margin : 0 20px;
-    border :1px solid white;
+   /*  border :1px solid white; */
     border-radius: 10px;
 }
 
