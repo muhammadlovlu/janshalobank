@@ -60,3 +60,7 @@ h2{
 #deposit{}
 #withdraw{}
 #balance{}
+#amount-input{
+    margin-top: 50px;
+    display: none;
+}
