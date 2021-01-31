@@ -18,10 +18,10 @@ document.getElementById('addWithdraw').addEventListener('click', function (){
     updateSpanText('currentBalance', -1* withdrawNumber);
     document.getElementById('withdrawAmount').value = "";
 })
-function updateSpanText(id, depositNumber){
+function updateSpanText(id, addedNumber){
     const current = document.getElementById(id).innerText;
     const currentNumber  = parseFloat(current);
-    const total = currentNumber + depositNumber;
+    const total = currentNumber + addedNumber;
     document.getElementById(id).innerText = total;
 }
 function getInputNumber(id){
